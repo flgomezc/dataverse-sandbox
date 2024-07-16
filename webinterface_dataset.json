@@ -1,0 +1,188 @@
+{
+  "id": 244,
+  "identifier": "FK2/OJTRUA",
+  "persistentUrl": "https://doi.org/10.5072/FK2/OJTRUA",
+  "protocol": "doi",
+  "authority": "10.5072",
+  "publisher": "HPC",
+  "publicationDate": "2024-07-11",
+  "storageIdentifier": "file://10.5072/FK2/OJTRUA",
+  "metadataLanguage": "en",
+  "datasetVersion": {
+    "id": 14,
+    "datasetId": 244,
+    "datasetPersistentId": "doi:10.5072/FK2/OJTRUA",
+    "storageIdentifier": "file://10.5072/FK2/OJTRUA",
+    "versionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "lastUpdateTime": "2024-07-12T12:17:55Z",
+    "releaseTime": "2024-07-12T12:17:55Z",
+    "createTime": "2024-07-12T12:15:59Z",
+    "publicationDate": "2024-07-11",
+    "citationDate": "2024-07-11",
+    "license": {
+      "name": "CC0 1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "New Dataset created with WebInterface"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gómez-Cortés, Felipe Leonardo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HPC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3964-9686"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gómez-Cortés, Felipe Leonardo"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HPC"
+                },
+                "datasetContactEmail": {
+                  "typeName": "datasetContactEmail",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "felipe@example.com"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dataset description comes here."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-07-11"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ministerio de Ciencias"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gómez-Cortés, Felipe Leonardo"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-07-11"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "A classic text file.",
+        "label": "lorem_ipsum.txt",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 14,
+        "dataFile": {
+          "id": 245,
+          "persistentId": "",
+          "filename": "lorem_ipsum.txt",
+          "contentType": "text/plain",
+          "filesize": 4007,
+          "description": "A classic text file.",
+          "storageIdentifier": "file://190a6de8376-808891a8ff9f",
+          "rootDataFileId": -1,
+          "md5": "1ad137dc33ab799a42bb050d9c4c81ff",
+          "checksum": {
+            "type": "MD5",
+            "value": "1ad137dc33ab799a42bb050d9c4c81ff"
+          },
+          "creationDate": "2024-07-12"
+        }
+      }
+    ],
+    "citation": "Gómez-Cortés, Felipe Leonardo, 2024, \"New Dataset created with WebInterface\", https://doi.org/10.5072/FK2/OJTRUA, HPC, V2"
+  }
+}
