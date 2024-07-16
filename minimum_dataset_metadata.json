@@ -1,0 +1,26 @@
+{
+  "datasetVersion": {
+    "metadataBlocks": {
+      "citation": {
+        "fields": [
+          {
+            "typeClass": "compound",
+            "multiple": true,
+            "typeName": "author",
+            "value": [
+              {
+                "authorName": {
+                  "value": "Finch, Fiona",
+                  "typeClass": "primitive",
+                  "multiple": false,
+                  "typeName": "authorName"
+                }
+              }
+            ]
+          }
+        ],
+        "displayName": "Citation Metadata"
+      }
+    }
+  }
+}
