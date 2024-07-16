@@ -1,0 +1,133 @@
+{
+    "datasetVersion": {
+        "metadataBlocks": {
+            "citation": {
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "New Dataset created with API & pyDataverse"
+                      },
+                    {
+                        "typeClass": "compound",
+                        "multiple": true,
+                        "typeName": "author",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "value": "Gomez-Cortes, Felipe Leonardo",
+                                    "typeClass": "primitive",
+                                    "multiple": false,
+                                    "typeName": "authorName"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HPC"
+                                },
+                                "authorIdentifierScheme": {
+                                    "typeName": "authorIdentifierScheme",
+                                    "multiple": false,
+                                    "typeClass": "controlledVocabulary",
+                                    "value": "ORCID"
+                                },
+                                "authorIdentifier": {
+                                    "typeName": "authorIdentifier",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "0000-0003-3964-9686"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Gomez-Cortes, Felipe Leonardo"
+                                },
+                                "datasetContactAffiliation": {
+                                    "typeName": "datasetContactAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "HPC"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "felipe@example.com"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Dataset description for the Dummy Dataset created with API."
+                                },
+                                "dsDescriptionDate": {
+                                    "typeName": "dsDescriptionDate",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "2024-07-11"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                          "Astronomy and Astrophysics"
+                        ]
+                      },
+                      {
+                        "typeName": "grantNumber",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                          {
+                            "grantNumberAgency": {
+                              "typeName": "grantNumberAgency",
+                              "multiple": false,
+                              "typeClass": "primitive",
+                              "value": "Ministerio de Ciencias"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "typeName": "depositor",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Gomez-Cortes, Felipe Leonardo"
+                      },
+                      {
+                        "typeName": "dateOfDeposit",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2024-07-12"
+                      }
+                ],
+                "displayName": "Citation Metadata"
+            }
+        }
+    }
+}
